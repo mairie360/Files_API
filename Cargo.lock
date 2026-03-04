@@ -3,24 +3,6 @@
 version = 4
 
 [[package]]
-name = "API_Template"
-version = "0.1.0"
-dependencies = [
- "actix-web",
- "async-trait",
- "futures-util",
- "mairie360_api_lib",
- "once_cell",
- "serde",
- "serde_json",
- "serial_test",
- "tokio",
- "tokio-postgres",
- "utoipa",
- "utoipa-swagger-ui",
-]
-
-[[package]]
 name = "actix-codec"
 version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -831,6 +813,24 @@ name = "fiat-crypto"
 version = "0.2.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "28dea519a9695b9977216879a3ebfddf92f1c08c05d984f8996aecd6ecdc811d"
+
+[[package]]
+name = "files_api"
+version = "0.1.0"
+dependencies = [
+ "actix-web",
+ "async-trait",
+ "futures-util",
+ "mairie360_api_lib",
+ "once_cell",
+ "serde",
+ "serde_json",
+ "serial_test",
+ "tokio",
+ "tokio-postgres",
+ "utoipa",
+ "utoipa-swagger-ui",
+]
 
 [[package]]
 name = "filetime"
